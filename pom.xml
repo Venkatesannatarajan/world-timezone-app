@@ -31,7 +31,9 @@
 				      <muleVersion>4.2.2</muleVersion>
 				      <username>venkatesannatarajan5</username>
 				      <password>Password123</password>
-				      <applicationName>cloudhub-application-name</applicationName>
+				      <workers>1</workers>
+				      <workerType>Micro</workerType>
+				      <applicationName>${artifactId}-${maven.build.timestamp}</applicationName>
 				      <environment>Sandbox</environment>
 				  </cloudHubDeployment>
 				</configuration>
