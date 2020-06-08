@@ -33,7 +33,7 @@
 				      <password>${password}</password>
 				      <workers>${workers}</workers>
 				      <workerType>${worker.type}</workerType>
-				      <applicationName>WorldTimeZone</applicationName>
+				      <applicationName>WorldTimeZoneAPIVN</applicationName>
 				      <environment>${environment}</environment>
 				  </cloudHubDeployment>
 				</configuration>
