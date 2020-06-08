@@ -33,6 +33,7 @@
 				      <password>${password}</password>
 				      <workers>${workers}</workers>
 				      <workerType>${worker.type}</workerType>
+				      <application>target/world-demo-api-1.0.0-SNAPSHOT-mule-application.jar</application>
 				      <applicationName>WorldTimeZone</applicationName>
 				      <environment>${environment}</environment>
 				  </cloudHubDeployment>
