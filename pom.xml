@@ -32,8 +32,8 @@
 				      <username>${username}</username>
 				      <password>${password}</password>
 				      <workers>${workers}</workers>
-				      <workerType>${workerType}</workerType>
-				      <applicationName>World Time Zone</applicationName>
+				      <workerType>${worker.type}</workerType>
+				      <applicationName>WorldTimeZone</applicationName>
 				      <environment>${environment}</environment>
 				  </cloudHubDeployment>
 				</configuration>
