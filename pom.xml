@@ -32,11 +32,11 @@
 				      <username>venkatesannatarajan5</username>
 				      <password>Password123</password>
 				      <applicationName>cloudhub-application-name</applicationName>
-				      <environment>SandBox</environment>
+				      <environment>Sandbox</environment>
 				  </cloudHubDeployment>
 				</configuration>
 			</plugin>
-		</plugins>
+		</plugins> 
 	</build>
 
 	<dependencies>
