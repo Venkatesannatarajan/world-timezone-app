@@ -28,13 +28,13 @@
 				<configuration>
 				   <cloudHubDeployment>
 				      <uri>https://anypoint.mulesoft.com/</uri>
-				      <muleVersion>4.2.2</muleVersion>
-				      <username>venkatesannatarajan5</username>
-				      <password>Password123</password>
-				      <workers>1</workers>
-				      <workerType>Micro</workerType>
-				      <applicationName>${artifactId}-${maven.build.timestamp}</applicationName>
-				      <environment>Sandbox</environment>
+				      <muleVersion>${mule.version}</muleVersion>
+				      <username>${username}</username>
+				      <password>${password}</password>
+				      <workers>${workers}</workers>
+				      <workerType>${workerType}</workerType>
+				      <applicationName>World Time Zone</applicationName>
+				      <environment>${environment}</environment>
 				  </cloudHubDeployment>
 				</configuration>
 			</plugin>
