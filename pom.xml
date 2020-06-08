@@ -35,6 +35,7 @@
 				      <workerType>${worker.type}</workerType>
 				      <applicationName>WorldTimeZoneAPIVN</applicationName>
 				      <environment>${environment}</environment>
+				      <objectStoreV2>true</objectStoreV2>
 				  </cloudHubDeployment>
 				</configuration>
 			</plugin>
